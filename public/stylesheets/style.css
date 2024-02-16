@@ -1,0 +1,13 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #180021;
+}
+
+.message {
+  background-color: rgb(213, 153, 153);
+  border: 2px solid black;
+}
