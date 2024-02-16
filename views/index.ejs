@@ -9,11 +9,10 @@
     <p>Welcome to <%= title %></p>
     <ul>
       <% messages.forEach(function(message){ %>
-        <!-- <%- message %> -->
         <div class="message">
-        <p>Name: <%= message.user %></p>
-        <p><%= message.text %></p>
-        <p>Date: <%= message.added %></p>
+        <p class="username">Name: <%= message.user %></p>
+        <p class="message-text"><%= message.text %></p>
+        <p class="message-date">Date: <%= message.added %></p>
         </div>    
       <% }); %>
         </ul>
