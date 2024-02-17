@@ -4,8 +4,8 @@ This project is part of the Odin Project's Curriculum NodeJS Course. The main go
 
 # Description
 
-This project is a very basic message board that displays some default messages and allows a user to add new messages. The main object of this project was to become comfortable using Express.
+This is a very basic message board that displays some default messages and allows a user to add new messages. The main object of this project was to become comfortable using Express.
 
 # Live Page
 
-Live page pending
+Live page at: https://mini-message-board-production-868e.up.railway.app/
