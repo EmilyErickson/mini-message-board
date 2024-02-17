@@ -6,7 +6,7 @@
   </head>
   <body>
     <h1><%= title %></h1>
-    <p>Welcome to <%= title %></p>
+    <a class="new" href="/new">Create new message</a>
     <ul>
       <% messages.forEach(function(message){ %>
         <div class="message">
@@ -16,6 +16,5 @@
         </div>    
       <% }); %>
         </ul>
-        <a href="/new">Create new message</a>
   </body>
 </html>
