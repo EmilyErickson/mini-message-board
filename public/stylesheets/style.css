@@ -1,13 +1,99 @@
 body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #e7e7e7;
+  box-sizing: border-box;
+}
+
+h1 {
+  text-shadow: -2px 2px 2px #9b9b9b;
 }
 
 a {
-  color: #180021;
+  color: #000000;
+  background-color: #fdfdfd;
+  text-decoration: none;
+  border: .5px solid black;
+  border-radius: 8px;
+  padding: 5px;
+  box-shadow: 2px 2px 2px black;
+}
+
+.new {
+  transition: all .5s ease-in-out;
+}
+.new:hover {
+  background-color: #e0e0e0;
+  font-size: 18px;
 }
 
 .message {
-  background-color: rgb(213, 153, 153);
-  border: 2px solid black;
+  font-size: 18px;
+  display: grid;
+  align-items: center;
+  background-color: rgb(255, 255, 255);
+  border: .5px solid black;
+  padding-left: 5px;
+  box-shadow: 2px 2px 2px rgb(36, 36, 36);
+  margin: 10px 0;
+  max-width: 800px;
+}
+.username {
+  font-weight: 600;
+}
+
+.message-text {
+  width: 95%;
+  height: 100%;
+  padding: 5px;
+  background-color: rgb(253, 253, 253);
+  border: 1px solid whitesmoke;
+  max-height: 350px;
+  overflow: scroll;
+}
+
+.message-date {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: medium;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+input, textarea {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  border: .5px solid black;
+  border-radius: 5px;
+  box-shadow: -1px 2px 2px rgb(69, 69, 69);
+}
+
+#messageText {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  height: 250px;
+}
+
+button {
+  color: #000000;
+  background-color: #fdfdfd;
+  text-decoration: none;
+  border: .5px solid black;
+  border-radius: 8px;
+  padding: 5px;
+  box-shadow: 2px 2px 2px black;
+  transition: all .2s ease-in-out;
+}
+
+button:hover {
+  background-color: #cacaca;
+  font-size: 14px;
 }
